@@ -82,7 +82,7 @@ class DataColumn extends Column
      * @var boolean whether to allow sorting by this column. If true and [[attribute]] is found in
      * the sort definition of [[GridView::dataProvider]], then the header cell of this column
      * will contain a link that may trigger the sorting when being clicked.
-     */
+     */    
     public $enableSorting = true;
     /**
      * @var array the HTML attributes for the link tag in the header cell
